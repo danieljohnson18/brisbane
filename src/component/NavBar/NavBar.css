@@ -1,8 +1,12 @@
 * {
   font-family: inter;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 .header {
-  background-image: url("/src/assets/img/bounchouse.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("/src/assets/img/bounchouse.jpg");
   width: 100%;
   height: 85vh;
   background-size: cover;
@@ -27,7 +31,7 @@
 }
 
 .brisbane {
-  font-size: 1.5rem;
+  font-size: 2rem;
   color: #fc6a10;
   font-weight: 800;
   line-height: 1.5;
@@ -41,4 +45,97 @@
   font-size: 1rem;
   margin-top: 10px;
   color: #fff;
+}
+
+.services {
+  margin-top: 20px;
+}
+
+.services .row {
+  margin-top: 40px;
+  margin: 0 auto;
+}
+
+.services .col {
+  border: 2px solid #fc6a10;
+  width: 30px;
+  margin: 30px;
+  height: 110px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+}
+
+.services .content {
+}
+
+.party {
+  font-size: 0.8rem;
+  text-align: center;
+  padding-bottom: 5px;
+}
+
+.products .party-hire {
+  color: #fc6a10;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+
+.products .card {
+  margin-top: 30px;
+  border-radius: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.products .card-body {
+  background-color: #fc6a10;
+  color: #fff;
+  border-radius: 0 0 10px 10px;
+}
+
+.view-more .col {
+  border: 2px solid #fc6a10;
+  border-radius: 5px;
+  margin-top: 40px;
+  margin-left: 22px;
+  margin-right: 10px;
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+.view {
+  font-size: 1rem;
+  color: #fc6a10;
+  padding: 20px;
+}
+
+.container .booking {
+  border-radius: 20px;
+}
+
+.booking .card-body {
+  text-align: start;
+  line-height: 2;
+  margin-top: 25px;
+}
+
+.booking .card-title {
+  color: #fc6a10;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+.booking .items {
+  margin-top: 20px;
+  font-size: 0.8rem;
+}
+
+.booking .card-text {
+  margin-top: 50px;
+  font-size: 1rem;
+  font-weight: 500;
 }

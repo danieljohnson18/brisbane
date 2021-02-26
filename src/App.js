@@ -7,7 +7,7 @@ import Business from "./assets/img/Business-01.svg";
 import Check from "./assets/img/Check live-01.svg";
 import See from "./assets/img/see-01.svg";
 import Sport from "./assets/img/Sport-01.svg";
-import Backyard 
+import Backyard from "./assets/img/Backyard party-01.svg";
 
 function App() {
   return (
@@ -19,6 +19,7 @@ function App() {
         Check={Check}
         See={See}
         Sport={Sport}
+        Backyard={Backyard}
       />
     </div>
   );
