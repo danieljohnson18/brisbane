@@ -18,6 +18,16 @@
   -moz-box-shadow: 0px 1px 7px 23px rgba(0, 0, 0, 0.65);
 }
 
+.container-fluid .branding {
+  position: relative;
+  background: url(/src/assets/img/Logo.svg);
+  width: 100px;
+  height: 50px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
 .collapse {
   justify-content: flex-end;
 }
@@ -57,23 +67,27 @@
 }
 
 .services .col {
-  border: 2px solid #fc6a10;
+  border: 1px solid #fc6a10;
   width: 30px;
   margin: 30px;
-  height: 110px;
+  height: 120px;
   display: flex;
   align-items: center;
   justify-content: center;
   border-radius: 10px;
 }
 
-.services .content {
+.services img {
+  filter: invert(66%) sepia(57%) saturate(6559%) hue-rotate(354deg)
+    brightness(101%) contrast(98%);
+  width: 100%;
 }
 
 .party {
   font-size: 0.8rem;
   text-align: center;
   padding-bottom: 5px;
+  font-weight: 600;
 }
 
 .products .party-hire {
@@ -89,12 +103,24 @@
   border-radius: 10px;
   margin-left: 10px;
   margin-right: 10px;
+  height: 300px;
+  width: 85%;
+}
+
+.products .card-img-top {
+  height: 210px;
+  border-radius: 10px 10px 0 0;
 }
 
 .products .card-body {
   background-color: #fc6a10;
   color: #fff;
   border-radius: 0 0 10px 10px;
+}
+
+.products .card-title {
+  font-size: 1rem;
+  font-weight: 700;
 }
 
 .view-more .col {
@@ -111,6 +137,14 @@
   font-size: 1rem;
   color: #fc6a10;
   padding: 20px;
+  margin-bottom: 0px;
+  display: inline;
+}
+
+.products i {
+  padding: 20px 20px 20px 5px;
+  width: 20px;
+  color: #fc6a10;
 }
 
 .container .booking {
@@ -134,8 +168,121 @@
   font-size: 0.8rem;
 }
 
+.booking .boook {
+  height: 351px;
+  object-fit: cover;
+}
+
 .booking .card-text {
   margin-top: 50px;
   font-size: 1rem;
   font-weight: 500;
+}
+
+.booking-contents {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.booking-contents img {
+  margin-left: 0px;
+  width: 50px;
+  filter: invert(66%) sepia(57%) saturate(6559%) hue-rotate(354deg)
+    brightness(101%) contrast(98%);
+}
+
+.touch {
+  background-color: #fc6a10;
+  height: 120px;
+}
+
+.touch .col-md-auto {
+  border: 1px solid black;
+  margin: 10px 6px 10px 10px;
+  padding: 10px;
+  height: 50px;
+  width: 50%;
+  background-color: #fff;
+  border-radius: 6px;
+}
+
+.touch .content {
+  color: rgb(153, 151, 151);
+  font-size: 0.8rem;
+  text-align: start;
+  margin-top: 7px;
+  padding-left: 20px;
+}
+
+.touch .col-lg-2 {
+  border: 1px solid black;
+  margin: 10px;
+  padding: 10px;
+  height: 50px;
+  width: 30%;
+  background-color: #000;
+  border-radius: 6px;
+  color: #fff;
+  margin-left: 0px;
+  font-size: 1rem;
+}
+
+.touch .stay {
+  margin-top: 20px;
+  color: #fff;
+}
+
+.touch .stay-in {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 2px;
+}
+
+.touch .subscribe {
+  background-color: #000;
+  color: #fff;
+  font-size: 0.8rem;
+}
+
+.footer {
+  background-color: #111111;
+}
+
+.footer .active {
+  color: #fc6a10;
+  text-align: start;
+}
+
+.footer .pages {
+  font-size: 1.2rem;
+}
+
+.footer .col {
+  margin-top: 20px;
+}
+
+.footer .link {
+  color: #fff;
+  text-align: start;
+}
+
+.footer .footer-text {
+  color: #fff;
+  font-size: 0.8rem;
+  text-align: initial;
+  margin-bottom: 40px;
+  margin-top: 20px;
+}
+
+.footer .social {
+  display: flex;
+  justify-content: start;
+  color: #fff;
+}
+
+.footer .socials {
+  padding-right: 0px;
+}
+.footer i {
+  color: #fff;
 }

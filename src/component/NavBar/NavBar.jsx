@@ -1,18 +1,38 @@
 import React from "react";
+import Bookings from "../Booking/Bookings";
+import Footer from "../Footer/Footer";
 import "../NavBar/NavBar.css";
 import Products from "../Products/Products";
 import Services from "../Services/Services";
 
-const NavBar = ({ logo, Book, Business, Check, See, Sport, Backyard }) => {
+const NavBar = ({
+  logo,
+  Book,
+  Business,
+  Check,
+  See,
+  Sport,
+  Backyard,
+  Booking,
+  Medium,
+  Glow,
+  Water,
+  Large,
+  Obstacle,
+  Table,
+  Fencing,
+  Chair,
+  Community,
+  Weddings,
+  School,
+}) => {
   return (
     <React.Fragment>
       <header className="header">
         <div className="container-fluid">
           <nav className="navbar navbar-expand-lg navbar-light ">
             <div className="container-fluid">
-              <a class="navbar-brand" href="#">
-                <img src={logo} alt="" width="30" height="24" />
-              </a>
+              <a class="navbar-brand branding" href="#"></a>
               <button
                 className="navbar-toggler"
                 type="button"
@@ -71,38 +91,27 @@ const NavBar = ({ logo, Book, Business, Check, See, Sport, Backyard }) => {
         </div>
       </header>
       <Services
-        logo={logo}
-        Book={Book}
+        Weddings={Weddings}
         Business={Business}
-        Check={Check}
-        See={See}
         Sport={Sport}
         Backyard={Backyard}
+        Community={Community}
+        School={School}
       />
-      <Products logo={logo} />
+      <Products
+        logo={logo}
+        Medium={Medium}
+        Glow={Glow}
+        Water={Water}
+        Large={Large}
+        Obstacle={Obstacle}
+        Table={Table}
+        Fencing={Fencing}
+        Chair={Chair}
+      />
 
-      <div className="container">
-        <div className="booking">
-          <div class="card mb-3">
-            <div class="row g-0">
-              <div class="col-md-4">
-                <img src={logo} alt="..." />
-              </div>
-              <div class="col-md-8">
-                <div class="card-body">
-                  <h5 class="card-title">Booking Online Is As Easy As 1,2,3</h5>
-                  <h6 className="items">Select Your Item(s)</h6>
-                  <h6 className="items">Check Live Availability</h6>
-                  <h6 className="items">Book & Pay Online</h6>
-                  <p class="card-text">
-                    Seat back and relax and let us do the rest.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+      <Bookings Booking={Booking} Check={Check} See={See} Book={Book} />
+      <Footer />
     </React.Fragment>
   );
 };
