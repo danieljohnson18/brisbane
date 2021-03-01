@@ -8,7 +8,7 @@
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url("/src/assets/img/bounchouse.jpg");
   width: 100%;
-  height: 85vh;
+  height: 75vh;
   background-size: cover;
 }
 
@@ -55,39 +55,6 @@
   font-size: 1rem;
   margin-top: 10px;
   color: #fff;
-}
-
-.services {
-  margin-top: 20px;
-}
-
-.services .row {
-  margin-top: 40px;
-  margin: 0 auto;
-}
-
-.services .col {
-  border: 1px solid #fc6a10;
-  width: 30px;
-  margin: 30px;
-  height: 120px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 10px;
-}
-
-.services img {
-  filter: invert(66%) sepia(57%) saturate(6559%) hue-rotate(354deg)
-    brightness(101%) contrast(98%);
-  width: 100%;
-}
-
-.party {
-  font-size: 0.8rem;
-  text-align: center;
-  padding-bottom: 5px;
-  font-weight: 600;
 }
 
 .products .party-hire {
@@ -149,6 +116,11 @@
 
 .container .booking {
   border-radius: 20px;
+  margin-bottom: 30px;
+}
+
+.booking .card {
+  border-radius: 10px;
 }
 
 .booking .card-body {
@@ -171,12 +143,17 @@
 .booking .boook {
   height: 351px;
   object-fit: cover;
+  border-radius: 10px 0 0 10px;
 }
 
 .booking .card-text {
   margin-top: 50px;
   font-size: 1rem;
   font-weight: 500;
+}
+
+.booking .col-md-4 {
+  border-radius: 10px;
 }
 
 .booking-contents {

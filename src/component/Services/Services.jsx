@@ -1,4 +1,5 @@
 import React from "react";
+import "../Services/Services.css";
 
 const Services = ({
   Business,
@@ -13,6 +14,57 @@ const Services = ({
       <div className="services">
         <div class="container">
           <div class="row">
+            <div class="col-lg-2 col-md-4 col-sm-6 ">
+              <div className="card">
+                <img src={Backyard} class="card-img-top" alt="..." />
+                <div className="card-body">
+                  <h5 className="card-title">Backyard Parties</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-2 col-md-4 col-sm-6 ">
+              <div className="card">
+                <img src={Weddings} class="card-img-top" alt="..." />
+                <div className="card-body">
+                  <h5 className="card-title">Weddings</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-2 col-md-4 col-sm-6">
+              <div className="card">
+                <img src={Business} class="card-img-top" alt="..." />
+                <div className="card-body">
+                  <h5 className="card-title">Business/ Corporate</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-2 col-md-4 col-sm-6">
+              <div className="card">
+                <img src={Sport} class="card-img-top" alt="..." />
+                <div className="card-body">
+                  <h5 className="card-title">Sporting Clubs</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-2 col-md-4 col-sm-6">
+              <div className="card">
+                <img src={School} class="card-img-top" alt="..." />
+                <div className="card-body">
+                  <h5 className="card-title">School Events</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-2 col-md-4 col-sm-6">
+              <div className="card">
+                <img src={Community} class="card-img-top" alt="..." />
+                <div className="card-body">
+                  <h5 className="card-title">Communtiy/ Public</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          {/*<div class="row">
             <div class="col">
               <div className="content">
                 <img src={Backyard} class="img-fluid" alt="..." />
@@ -48,8 +100,8 @@ const Services = ({
                 <img src={Community} class="img-fluid" alt="..." />
                 <h3 className="party">Communtiy/ Public</h3>
               </div>
-            </div>
-          </div>
+  </div>
+  </div>*/}
         </div>
       </div>
     </div>
