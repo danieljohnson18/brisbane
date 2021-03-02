@@ -2,9 +2,14 @@
   margin-top: 0px;
 }
 
+.services .container {
+  margin-left: 40px;
+}
+
 .services .row {
   margin-top: 40px;
   margin: 0 auto;
+  width: 1200px;
 }
 
 .services .col {

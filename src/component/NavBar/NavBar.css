@@ -57,6 +57,14 @@
   color: #fff;
 }
 
+.products .container {
+  margin-left: 40px;
+}
+
+.products .row {
+  width: 1200px;
+}
+
 .products .party-hire {
   color: #fc6a10;
   margin-top: 20px;
@@ -90,6 +98,10 @@
   font-weight: 700;
 }
 
+.view-more .row {
+  width: 1160px;
+}
+
 .view-more .col {
   border: 2px solid #fc6a10;
   border-radius: 5px;
@@ -121,8 +133,16 @@
 
 .booking .card {
   border-radius: 10px;
+  padding: 0px;
 }
 
+.booking .row {
+  width: 1200px;
+}
+
+.booking .col-md-4 {
+  padding: 0px;
+}
 .booking .card-body {
   text-align: start;
   line-height: 2;
