@@ -52,7 +52,7 @@ const Services = ({
               </div>
             </div>
           </div>
-          <div class="col-lg-2 col-md-4 col-sm-6">
+          <div class="col-lg-2 col-md-4 col-sm-6 pl-4">
             <div className="card">
               <img src={Community} class="card-img-top" alt="..." />
               <div className="card-body">

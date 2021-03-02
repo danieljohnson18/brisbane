@@ -29,7 +29,7 @@ const NavBar = ({
   return (
     <React.Fragment>
       <header className="header">
-        <div className="container-fluid mx-4">
+        <div className="container-fluid">
           <nav className="navbar navbar-expand-lg navbar-light ">
             <div className="container-fluid">
               <a class="navbar-brand branding" href="#"></a>
