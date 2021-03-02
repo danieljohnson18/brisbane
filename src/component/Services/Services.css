@@ -2,14 +2,8 @@
   margin-top: 0px;
 }
 
-.services .container {
-  margin-left: 40px;
-}
-
 .services .row {
-  margin-top: 40px;
-  margin: 0 auto;
-  width: 1200px;
+  margin-bottom: 30px;
 }
 
 .services .col {
@@ -26,7 +20,8 @@
 .services img {
   filter: invert(66%) sepia(57%) saturate(6559%) hue-rotate(354deg)
     brightness(101%) contrast(98%);
-  width: 100%;
+  width: 78%;
+  padding-left: 10px;
 }
 
 .services .card {
@@ -34,7 +29,7 @@
   border: 1px solid #fc6a10;
   border-radius: 10px;
   width: 120px;
-  height: 160px;
+  height: 120px;
 }
 
 .services .card-title {

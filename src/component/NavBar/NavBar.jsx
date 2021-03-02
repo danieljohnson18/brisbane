@@ -29,7 +29,7 @@ const NavBar = ({
   return (
     <React.Fragment>
       <header className="header">
-        <div className="container-fluid">
+        <div className="container-fluid mx-4">
           <nav className="navbar navbar-expand-lg navbar-light ">
             <div className="container-fluid">
               <a class="navbar-brand branding" href="#"></a>
@@ -91,27 +91,44 @@ const NavBar = ({
         </div>
       </header>
 
-      <Services
-        Weddings={Weddings}
-        Business={Business}
-        Sport={Sport}
-        Backyard={Backyard}
-        Community={Community}
-        School={School}
-      />
-      <Products
-        logo={logo}
-        Medium={Medium}
-        Glow={Glow}
-        Water={Water}
-        Large={Large}
-        Obstacle={Obstacle}
-        Table={Table}
-        Fencing={Fencing}
-        Chair={Chair}
-      />
+      <div className="container">
+        <Services
+          Weddings={Weddings}
+          Business={Business}
+          Sport={Sport}
+          Backyard={Backyard}
+          Community={Community}
+          School={School}
+        />
+        <Products
+          logo={logo}
+          Medium={Medium}
+          Glow={Glow}
+          Water={Water}
+          Large={Large}
+          Obstacle={Obstacle}
+          Table={Table}
+          Fencing={Fencing}
+          Chair={Chair}
+        />
+        <Bookings Booking={Booking} Check={Check} See={See} Book={Book} />
+      </div>
+      <div className="touch">
+        <div className="container">
+          <div className="row">
+            <div className="col stay">
+              <h2 className="stay-in"> Stay in touch</h2>
+            </div>
+          </div>
+          <div class="row justify-content-md-center">
+            <div class="col-md-auto">
+              <h3 className="content">Join our mailing list</h3>
+            </div>
+            <div class="col col-lg-2">SUBSCRIBE</div>
+          </div>
+        </div>
+      </div>
 
-      <Bookings Booking={Booking} Check={Check} See={See} Book={Book} />
       <Footer />
     </React.Fragment>
   );

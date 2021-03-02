@@ -12,6 +12,10 @@
   background-size: cover;
 }
 
+.container {
+  padding: 0px;
+}
+
 .container .navbar {
   box-shadow: 0px 1px 7px 23px rgba(0, 0, 0, 0.65);
   -webkit-box-shadow: 0px 1px 7px 23px rgba(0, 0, 0, 0.65);
@@ -57,87 +61,19 @@
   color: #fff;
 }
 
-.products .container {
-  margin-left: 40px;
-}
-
-.products .row {
-  width: 1200px;
-}
-
-.products .party-hire {
-  color: #fc6a10;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  font-size: 1.4rem;
-  font-weight: 700;
-}
-
-.products .card {
-  margin-top: 30px;
-  border-radius: 10px;
-  margin-left: 10px;
-  margin-right: 10px;
-  height: 300px;
-  width: 85%;
-}
-
-.products .card-img-top {
-  height: 210px;
-  border-radius: 10px 10px 0 0;
-}
-
-.products .card-body {
-  background-color: #fc6a10;
-  color: #fff;
-  border-radius: 0 0 10px 10px;
-}
-
-.products .card-title {
-  font-size: 1rem;
-  font-weight: 700;
-}
-
-.view-more .row {
-  width: 1160px;
-}
-
-.view-more .col {
-  border: 2px solid #fc6a10;
-  border-radius: 5px;
-  margin-top: 40px;
-  margin-left: 22px;
-  margin-right: 10px;
-  width: 100%;
-  margin-bottom: 40px;
-}
-
-.view {
-  font-size: 1rem;
-  color: #fc6a10;
-  padding: 20px;
-  margin-bottom: 0px;
-  display: inline;
-}
-
-.products i {
-  padding: 20px 20px 20px 5px;
-  width: 20px;
-  color: #fc6a10;
-}
-
-.container .booking {
+.booking {
   border-radius: 20px;
   margin-bottom: 30px;
+  padding-right: 20px;
+}
+
+.booking .row {
+  padding-left: 10px;
 }
 
 .booking .card {
   border-radius: 10px;
   padding: 0px;
-}
-
-.booking .row {
-  width: 1200px;
 }
 
 .booking .col-md-4 {
