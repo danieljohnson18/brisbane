@@ -1,0 +1,120 @@
+import React from "react";
+import Nav from "../Nav/Nav";
+import "../Wedding/Wedding.css";
+import Party from "../../assets/img/Wedding party hire.JPG";
+import Touch from "../Touch/Touch";
+import Footer from "../Footer/Footer";
+import { Link } from "react-router-dom";
+import Marq1 from "../../assets/img/Marquee – DIY Pop Up – 3m x 3m.JPG";
+import Marq2 from "../../assets/img/Marquee – DIY Pop Up – 3m x 6m.JPG";
+import Marq3 from "../../assets/img/Marquee – Pagoda – 3m x 3m.JPG";
+import Marq4 from "../../assets/img/Marquee – Pagoda – 6m x 3m.JPG";
+import Marq5 from "../../assets/img/Marquee – Pagoda – 6m x 6m.JPG";
+import Marq6 from "../../assets/img/Marquee – Pagoda – 6m x 12m(uiYIPXYmjmQ).jpeg";
+import Marq7 from "../../assets/img/Marquee – Structure – 6m x 3m.JPG";
+import Marq8 from "../../assets/img/Marquee – Structure – 6m x 3m.JPG";
+
+const Marquees = () => {
+  return (
+    <React.Fragment>
+      <div className="wedding">
+        <Nav />
+      </div>
+      <div class="container-fluid">
+        <div className="paginator">
+          <Link className="link" to="/wedding">
+            <div className="text-start">
+              <h2 className="headies">Party-Hire for weddings</h2>
+            </div>
+          </Link>
+          <Link className="link" to="/marquees">
+            <div className="text-start ml-2">
+              <h2 className="headies">Marquees and Shade</h2>
+            </div>
+          </Link>
+        </div>
+        <div className="text-center">
+          <h1 className="party-text">Marquees and Shade</h1>
+        </div>
+        <div class="row row-marquees">
+          <div class="col-lg-6 col-md-6 col-sm-12 p-5">
+            <div class="card">
+              <img src={Marq1} class="card-img-top" alt="..." />
+              <div class="card-body">
+                <p class="text-start">Marquee - DIY Pop Up - 3m X 3m</p>
+                <p className="price-text">From $75.00</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-6 col-sm-12 p-5">
+            <div class="card">
+              <img src={Marq2} class="card-img-top" alt="..." />
+              <div class="card-body">
+                <p class="text-start">Marquee - DIY Pop Up - 3m X 6m</p>
+                <p className="price-text">From $75.00</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-6 col-sm-12 p-5">
+            <div class="card">
+              <img src={Marq3} class="card-img-top" alt="..." />
+              <div class="card-body">
+                <p class="text-start">Marquee - Pagoda 3m X 3m</p>
+                <p className="price-text">From $75.00</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-6 col-sm-12 p-5">
+            <div class="card">
+              <img src={Marq4} class="card-img-top" alt="..." />
+              <div class="card-body">
+                <p class="text-start">Marquee - Pagoda - 6m X 3m</p>
+                <p className="price-text">From $75.00</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-6 col-sm-12 p-5">
+            <div class="card">
+              <img src={Marq5} class="card-img-top" alt="..." />
+              <div class="card-body">
+                <p class="text-start">Marquee - Structure - 6m X 3m</p>
+                <p className="price-text">From $75.00</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-6 col-sm-12 p-5">
+            <div class="card">
+              <img src={Marq6} class="card-img-top" alt="..." />
+              <div class="card-body">
+                <p class="text-start">Marquee - Structure - 6m X 6m</p>
+                <p className="price-text">From $75.00</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-6 col-sm-12 p-5">
+            <div class="card">
+              <img src={Marq7} class="card-img-top" alt="..." />
+              <div class="card-body">
+                <p class="text-start">Marquee - Structure - 6m X 9m</p>
+                <p className="price-text">From $75.00</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-6 col-sm-12 p-5">
+            <div class="card">
+              <img src={Marq8} class="card-img-top" alt="..." />
+              <div class="card-body">
+                <p class="text-start">Marquee - Structure - 6m X 12m</p>
+                <p className="price-text">From $75.00</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <Touch />
+      <Footer />
+    </React.Fragment>
+  );
+};
+
+export default Marquees;

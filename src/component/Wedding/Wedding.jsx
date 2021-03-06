@@ -1,9 +1,10 @@
 import React from "react";
 import Nav from "../Nav/Nav";
-import "../Wedding/Wedding.css";
+import "../Marquees/Marquees.css";
 import Party from "../../assets/img/Wedding party hire.JPG";
 import Touch from "../Touch/Touch";
 import Footer from "../Footer/Footer";
+import { Link } from "react-router-dom";
 
 const Wedding = () => {
   return (
@@ -12,8 +13,17 @@ const Wedding = () => {
         <Nav />
       </div>
       <div class="container-fluid">
-        <div className="text-start">
-          <h2 className="headies">Party-Hire for weddings</h2>
+        <div className="paginator">
+          <Link className="link" to="/wedding">
+            <div className="text-start">
+              <h2 className="headies">Party-Hire for weddings</h2>
+            </div>
+          </Link>
+          <Link className="link" to="/marquees">
+            <div className="text-start ml-2">
+              <h2 className="headies">Marquees and Shade</h2>
+            </div>
+          </Link>
         </div>
         <div className="text-center">
           <h1 className="party-text">Party Hire For Weddings</h1>

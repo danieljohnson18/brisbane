@@ -25,6 +25,7 @@ import Community from "./assets/img/Community-01.svg";
 import Nav from "./component/Nav/Nav";
 import { Route, Switch } from "react-router-dom";
 import Wedding from "./component/Wedding/Wedding";
+import Marquees from "./component/Marquees/Marquees";
 
 function App() {
   return (
@@ -32,6 +33,9 @@ function App() {
       <Switch>
         <Route path="/wedding">
           <Wedding />
+        </Route>
+        <Route path="/marquees">
+          <Marquees />
         </Route>
         <Route path="/" component={NavBar}>
           <NavBar />

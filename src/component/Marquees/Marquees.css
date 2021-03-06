@@ -1,0 +1,55 @@
+.wedding {
+  background-color: black;
+}
+
+.container-fluid {
+  padding: 0px 35px;
+}
+
+.paginator {
+  display: flex;
+}
+
+.headies {
+  font-size: 0.7rem;
+  color: grey;
+  border: 2px solid grey;
+  width: 150px;
+  padding: 6px;
+  border-radius: 6px;
+  margin-top: 25px;
+}
+
+.headies:hover {
+  border: 2px solid #fc6a10;
+  color: #fc6a10;
+}
+
+.paginator .link:hover {
+  text-decoration: none;
+}
+
+.row-marquees .card {
+  border-radius: 10px;
+  -webkit-box-shadow: -1px 7px 23px -8px rgba(121, 122, 130, 0.7);
+  -moz-box-shadow: -1px 7px 23px -8px rgba(121, 122, 130, 0.7);
+  box-shadow: -1px 7px 23px -8px rgba(121, 122, 130, 0.7);
+  border: 1px solid #fff;
+}
+
+.row-marquees .card img {
+  border-radius: 10px 10px 0 0;
+  max-width: 100%;
+}
+
+.row-marquees .text-start {
+  margin-bottom: 0;
+  font-weight: 600;
+}
+
+.row-marquees .price-text {
+  text-align: start;
+  color: #fc6a10;
+  font-style: italic;
+  font-weight: 500;
+}

@@ -6,6 +6,10 @@
   padding: 0px 35px;
 }
 
+.paginator {
+  display: flex;
+}
+
 .headies {
   font-size: 0.7rem;
   color: grey;
@@ -14,6 +18,15 @@
   padding: 6px;
   border-radius: 6px;
   margin-top: 25px;
+}
+
+.headies:hover {
+  border: 2px solid #fc6a10;
+  color: #fc6a10;
+}
+
+.paginator .link:hover {
+  text-decoration: none;
 }
 
 .party-text {
