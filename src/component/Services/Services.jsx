@@ -13,14 +13,14 @@ const Services = ({
     <div>
       <div className="services">
         <div class="row">
-          <div class="col-lg-2 col-md-4 col-sm-6 ">
+          <div class="col-lg-2 col-md-4 col-sm-4 ">
             <div className="card">
               <img src={Backyard} class="card-img-top" alt="..." />
               <h5 className="card-title">Backyard Parties</h5>
               <div className="card-body"></div>
             </div>
           </div>
-          <div class="col-lg-2 col-md-4 col-sm-6 ">
+          <div class="col-lg-2 col-md-4 col-sm-4 ">
             <div className="card">
               <img src={Weddings} class="card-img-top" alt="..." />
               <div className="card-body">
@@ -28,7 +28,7 @@ const Services = ({
               </div>
             </div>
           </div>
-          <div class="col-lg-2 col-md-4 col-sm-6">
+          <div class="col-lg-2 col-md-4 col-sm-4">
             <div className="card">
               <img src={Business} class="card-img-top" alt="..." />
               <div className="card-body">
@@ -36,7 +36,7 @@ const Services = ({
               </div>
             </div>
           </div>
-          <div class="col-lg-2 col-md-4 col-sm-6">
+          <div class="col-lg-2 col-md-4 col-sm-4">
             <div className="card">
               <img src={Sport} class="card-img-top" alt="..." />
               <div className="card-body">
@@ -44,7 +44,7 @@ const Services = ({
               </div>
             </div>
           </div>
-          <div class="col-lg-2 col-md-4 col-sm-6">
+          <div class="col-lg-2 col-md-4 col-sm-4">
             <div className="card">
               <img src={School} class="card-img-top" alt="..." />
               <div className="card-body">
@@ -52,7 +52,7 @@ const Services = ({
               </div>
             </div>
           </div>
-          <div class="col-lg-2 col-md-4 col-sm-6 pl-4">
+          <div class="col-lg-2 col-md-4 col-sm-4 pl-4">
             <div className="card">
               <img src={Community} class="card-img-top" alt="..." />
               <div className="card-body">

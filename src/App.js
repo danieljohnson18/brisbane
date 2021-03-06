@@ -22,31 +22,21 @@ import Chair from "./assets/img/CHAIRS AND.jpg";
 import Weddings from "./assets/img/Weddings-01.svg";
 import School from "./assets/img/School-01.svg";
 import Community from "./assets/img/Community-01.svg";
+import Nav from "./component/Nav/Nav";
+import { Route, Switch } from "react-router-dom";
+import Wedding from "./component/Wedding/Wedding";
 
 function App() {
   return (
     <div className="App">
-      <NavBar
-        logo={logo}
-        Book={Book}
-        Business={Business}
-        Check={Check}
-        See={See}
-        Sport={Sport}
-        Backyard={Backyard}
-        Booking={Booking}
-        Medium={Medium}
-        Glow={Glow}
-        Water={Water}
-        Large={Large}
-        Obstacle={Obstacle}
-        Table={Table}
-        Fencing={Fencing}
-        Chair={Chair}
-        Weddings={Weddings}
-        School={School}
-        Community={Community}
-      />
+      <Switch>
+        <Route path="/wedding">
+          <Wedding />
+        </Route>
+        <Route path="/" component={NavBar}>
+          <NavBar />
+        </Route>
+      </Switch>
     </div>
   );
 }

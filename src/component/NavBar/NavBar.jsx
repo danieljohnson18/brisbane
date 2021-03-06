@@ -1,80 +1,37 @@
 import React from "react";
 import Bookings from "../Booking/Bookings";
 import Footer from "../Footer/Footer";
+import Nav from "../Nav/Nav";
 import "../NavBar/NavBar.css";
 import Products from "../Products/Products";
 import Services from "../Services/Services";
+import logo from "../../assets/img/Logo.svg";
+import Book from "../../assets/img/Book-01.svg";
+import Business from "../../assets/img/Business-01.svg";
+import Check from "../../assets/img/Check live-01.svg";
+import See from "../../assets/img/see-01.svg";
+import Sport from "../../assets/img/Sport-01.svg";
+import Backyard from "../../assets/img/Backyard party-01.svg";
+import Booking from "../../assets/img/Bookings.jpg";
+import Glow from "../../assets/img/GLOW.jpg";
+import Water from "../../assets/img/INFLATABLE WATER.jpg";
+import Large from "../../assets/img/LARGE COMBO.jpg";
+import Obstacle from "../../assets/img/OBSTACLE cousre.jpg";
+import Table from "../../assets/img/TABLES AND DRY.jpg";
+import Medium from "../../assets/img/MEDIUM BOUNCY.jpg";
+import Fencing from "../../assets/img/FENCING AND.jpg";
+import Chair from "../../assets/img/CHAIRS AND.jpg";
+import Weddings from "../../assets/img/Weddings-01.svg";
+import School from "../../assets/img/School-01.svg";
+import Community from "../../assets/img/Community-01.svg";
+import Touch from "../Touch/Touch";
 
-const NavBar = ({
-  logo,
-  Book,
-  Business,
-  Check,
-  See,
-  Sport,
-  Backyard,
-  Booking,
-  Medium,
-  Glow,
-  Water,
-  Large,
-  Obstacle,
-  Table,
-  Fencing,
-  Chair,
-  Community,
-  Weddings,
-  School,
-}) => {
+const NavBar = () => {
   return (
     <React.Fragment>
       <header className="header">
         <div className="container-fluid">
-          <nav className="navbar navbar-expand-lg navbar-light ">
-            <div className="container-fluid">
-              <a class="navbar-brand branding" href="#"></a>
-              <button
-                className="navbar-toggler"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#navbarNavDropdown"
-                aria-controls="navbarNavDropdown"
-                aria-expanded="false"
-                aria-label="Toggle navigation"
-              >
-                <span className="navbar-toggler-icon"></span>
-              </button>
-              <div className="collapse navbar-collapse" id="navbarNavDropdown">
-                <ul className="navbar-nav d-flex">
-                  <li className="nav-item">
-                    <a className="nav-link active" aria-current="page" href="#">
-                      Jumping Castles
-                    </a>
-                  </li>
-                  <li className="nav-item">
-                    <a className="nav-link" href="#">
-                      Fun Foods
-                    </a>
-                  </li>
-                  <li className="nav-item">
-                    <a className="nav-link" href="#">
-                      Party Hire
-                    </a>
-                  </li>
-                  <li className="nav-item">
-                    <a className="nav-link" href="#">
-                      FAQ
-                    </a>
-                  </li>
-                  <li className="nav-item">
-                    <a className="nav-link" href="#">
-                      Contact
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </nav>
+          <Nav />
           <div className="container">
             <div className="row">
               <div className="col">
@@ -113,21 +70,7 @@ const NavBar = ({
         />
         <Bookings Booking={Booking} Check={Check} See={See} Book={Book} />
       </div>
-      <div className="touch">
-        <div className="container">
-          <div className="row">
-            <div className="col stay">
-              <h2 className="stay-in"> Stay in touch</h2>
-            </div>
-          </div>
-          <div class="row justify-content-md-center">
-            <div class="col-md-auto">
-              <h3 className="content">Join our mailing list</h3>
-            </div>
-            <div class="col col-lg-2">SUBSCRIBE</div>
-          </div>
-        </div>
-      </div>
+      <Touch />
 
       <Footer />
     </React.Fragment>

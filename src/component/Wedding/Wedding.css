@@ -1,0 +1,58 @@
+.wedding {
+  background-color: black;
+}
+
+.container-fluid {
+  padding: 0px 35px;
+}
+
+.headies {
+  font-size: 0.7rem;
+  color: grey;
+  border: 2px solid grey;
+  width: 150px;
+  padding: 6px;
+  border-radius: 6px;
+  margin-top: 25px;
+}
+
+.party-text {
+  font-size: 1.5rem;
+  color: #fc6a10;
+  margin-top: 60px;
+}
+
+.party-image {
+  margin-top: 30px;
+}
+
+.party-image .img-fluid {
+  width: 100%;
+}
+
+.wed-text {
+  margin-top: 20px;
+}
+
+.wed-text p {
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+.row-mar {
+  padding: 10px;
+  margin-bottom: 66px;
+  margin-top: 40px;
+}
+.row .marq {
+  border: 3px solid #fc6a10;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+
+.row .browse {
+  font-size: 1.5rem;
+  padding: 20px;
+  margin: 0;
+  color: #fc6a10;
+  font-weight: 700;
+}
