@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "../Services/Services.css";
 
 const Services = ({
@@ -24,7 +25,9 @@ const Services = ({
             <div className="card">
               <img src={Weddings} class="card-img-top" alt="..." />
               <div className="card-body">
-                <h5 className="card-title">Weddings</h5>
+                <h5 className="card-title">
+                  <Link to="/wedding"> Weddings</Link>
+                </h5>
               </div>
             </div>
           </div>

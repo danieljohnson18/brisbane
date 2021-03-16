@@ -1,0 +1,20 @@
+.faq-questions {
+  font-size: 1rem;
+  font-style: italic;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-weight: 500;
+}
+
+.general {
+  font-size: 1.2rem;
+  color: #fc6a10;
+}
+
+.row-faq .col {
+  background-color: #f3d9c7;
+  margin-right: 2px;
+  padding: 20px;
+  border-radius: 5px;
+  margin-top: 0px;
+}

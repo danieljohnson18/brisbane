@@ -26,12 +26,18 @@ const Nav = () => {
           </button>
           <div className="collapse navbar-collapse" id="navbarNavDropdown">
             <ul className="navbar-nav d-flex">
-              <Link className="nav-item nav-link ">Jumping Castles</Link>
-              <Link className="nav-item nav-link">Fun Foods</Link>
+              <Link className="nav-item nav-link" to="/jumpingcastle">
+                Jumping Castles
+              </Link>
+              <Link className="nav-item nav-link" to="/funfood">
+                Fun Foods
+              </Link>
               <Link className="nav-item nav-link" to="/wedding">
                 Part Hire
               </Link>
-              <Link className="nav-item nav-link">FAQ</Link>
+              <Link className="nav-item nav-link" to="/faq">
+                FAQ
+              </Link>
               <Link className="nav-item nav-link">Contact</Link>
             </ul>
           </div>

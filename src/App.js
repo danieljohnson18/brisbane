@@ -26,6 +26,11 @@ import Nav from "./component/Nav/Nav";
 import { Route, Switch } from "react-router-dom";
 import Wedding from "./component/Wedding/Wedding";
 import Marquees from "./component/Marquees/Marquees";
+import JumpingCastle from "./component/JumpingCastle/JumpingCastle";
+import FunFood from "./component/FunFood/FunFood";
+import Faq from "./component/Faq/Faq";
+import Chairs from "./component/Chairs/Chairs";
+import Lighting from "./component/Lighting/Lighting";
 
 function App() {
   return (
@@ -34,8 +39,23 @@ function App() {
         <Route path="/wedding">
           <Wedding />
         </Route>
+        <Route path="/funfood">
+          <FunFood />
+        </Route>
+        <Route path="/faq">
+          <Faq />
+        </Route>
         <Route path="/marquees">
           <Marquees />
+        </Route>
+        <Route path="/lighting">
+          <Lighting />
+        </Route>
+        <Route path="/chairs">
+          <Chairs />
+        </Route>
+        <Route path="/jumpingcastle">
+          <JumpingCastle />
         </Route>
         <Route path="/" component={NavBar}>
           <NavBar />

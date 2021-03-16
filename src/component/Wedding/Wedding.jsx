@@ -19,11 +19,11 @@ const Wedding = () => {
               <h2 className="headies">Party-Hire for weddings</h2>
             </div>
           </Link>
-          <Link className="link" to="/marquees">
+          {/*<Link className="link" to="/marquees">
             <div className="text-start ml-2">
               <h2 className="headies">Marquees and Shade</h2>
             </div>
-          </Link>
+  </Link>*/}
         </div>
         <div className="text-center">
           <h1 className="party-text">Party Hire For Weddings</h1>
@@ -52,10 +52,16 @@ const Wedding = () => {
         </div>
         <div class="row row-mar">
           <div class="col marq mr-5">
-            <h1 className="browse">BROWSE WEDDING MARQUEES</h1>
+            <h1 className="browse">
+              <Link to="/marquees"> BROWSE WEDDING MARQUEES</Link>
+            </h1>
           </div>
           <div class="col marq mr-5">
-            <h1 className="browse">BROWSE WEDDING CHAIRS</h1>
+            {" "}
+            <h1 className="browse">
+              {" "}
+              <Link to="/chairs">BROWSE WEDDING CHAIRS</Link>
+            </h1>
           </div>
           <div class="col marq">
             <h1 className="browse">BROWSE WEDDING LIGHTING</h1>

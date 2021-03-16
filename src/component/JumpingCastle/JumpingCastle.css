@@ -1,0 +1,51 @@
+.container-fluid .row .list-group-item {
+  border: none;
+  border-bottom: 1.3px solid #fc6a10;
+  border-top: 1px solid #fc6a10;
+  border-radius: none;
+  text-align: start;
+  padding-left: 0px;
+}
+
+.row .list-group {
+  margin-bottom: 20px;
+}
+
+.row .list-group .categories {
+  text-align: start;
+  font-size: 1rem;
+  color: #fc6a10;
+  border-bottom: none;
+}
+
+.container-fluid .entries {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.container-fluid .selections {
+  display: flex;
+  align-items: flex-end;
+}
+
+.container-fluid .form-control {
+  width: 20%;
+}
+
+.container-fluid .row {
+  margin-top: 40px;
+}
+
+.jump-content .content-header {
+  color: #fc6a10;
+  font-size: 1.2rem;
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+
+.jump-content .content-para {
+  text-align: start;
+  font-size: 0.9rem;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}

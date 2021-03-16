@@ -16,7 +16,7 @@ import Marq8 from "../../assets/img/Marquee – Structure – 6m x 3m.JPG";
 import axios from "axios";
 import { API_BASE_URL } from "../../constants/apiConstants";
 
-const Marquees = () => {
+const Chairs = () => {
   useEffect(() => {
     axios({
       headers: {
@@ -50,14 +50,14 @@ const Marquees = () => {
               <h2 className="headies">Party-Hire for weddings</h2>
             </div>
           </Link>
-          <Link className="link" to="/marquees">
+          <Link className="link" to="/chairs">
             <div className="text-start ml-2">
-              <h2 className="headies">Marquees and Shade</h2>
+              <h2 className="headies">Chair & Tools</h2>
             </div>
           </Link>
         </div>
         <div className="text-center">
-          <h1 className="party-text">Marquees and Shade</h1>
+          <h1 className="party-text">Chair & Tools</h1>
         </div>
         <div class="row row-marquees">
           <div class="col-lg-6 col-md-6 col-sm-12 p-5">
@@ -140,4 +140,4 @@ const Marquees = () => {
   );
 };
 
-export default Marquees;
+export default Chairs;
