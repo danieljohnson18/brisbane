@@ -1,3 +1,7 @@
+.frequently {
+  margin-bottom: 20px;
+}
+
 .faq-questions {
   font-size: 1rem;
   font-style: italic;
@@ -15,6 +19,14 @@
   background-color: #f3d9c7;
   margin-right: 2px;
   padding: 20px;
+  border-radius: 5px;
+  margin-top: 0px;
+}
+
+.col-stuck {
+  background-color: #f3d9c7;
+  margin-right: 2px;
+  padding: 40px;
   border-radius: 5px;
   margin-top: 0px;
 }

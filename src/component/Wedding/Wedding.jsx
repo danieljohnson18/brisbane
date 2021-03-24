@@ -64,7 +64,9 @@ const Wedding = () => {
             </h1>
           </div>
           <div class="col marq">
-            <h1 className="browse">BROWSE WEDDING LIGHTING</h1>
+            <h1 className="browse">
+              <Link to="/lighting">BROWSE WEDDING LIGHTING</Link>
+            </h1>
           </div>
         </div>
       </div>

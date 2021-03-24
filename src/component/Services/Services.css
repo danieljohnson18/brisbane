@@ -18,6 +18,13 @@
   border-radius: 10px;
 }
 
+.services .col-md-4 {
+  width: 40%;
+}
+
+.services .col-sm-4 {
+  width: 40%;
+}
 .services img {
   filter: invert(66%) sepia(57%) saturate(6559%) hue-rotate(354deg)
     brightness(101%) contrast(98%);
