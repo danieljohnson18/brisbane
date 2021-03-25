@@ -23,10 +23,47 @@
   margin-top: 0px;
 }
 
+.row-stuck {
+  margin-top: 0px;
+}
+
 .col-stuck {
   background-color: #f3d9c7;
   margin-right: 2px;
   padding: 40px;
   border-radius: 5px;
   margin-top: 0px;
+}
+
+.row-stuck .col {
+  margin-top: 0px;
+}
+
+hr {
+  margin-top: 5rem;
+  border-top: 2px solid #000;
+  opacity: 1;
+  margin-bottom: 0px;
+}
+
+.frequently .stuck {
+  color: #fc6a10;
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin-top: 5px;
+}
+
+.row-stuck img {
+  filter: invert(66%) sepia(57%) saturate(6559%) hue-rotate(354deg)
+    brightness(101%) contrast(98%);
+  width: 25%;
+  padding-left: 10px;
+}
+
+.row-stuck span {
+  color: #fc6a10;
+}
+
+.row-stuck p {
+  font-weight: 500;
 }
