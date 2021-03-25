@@ -53,7 +53,7 @@ hr {
   margin-top: 5px;
 }
 
-.row-stuck img {
+.row-stuck .mail {
   filter: invert(66%) sepia(57%) saturate(6559%) hue-rotate(354deg)
     brightness(101%) contrast(98%);
   width: 25%;

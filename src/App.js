@@ -29,6 +29,7 @@ import Marquees from "./component/Marquees/Marquees";
 import JumpingCastle from "./component/JumpingCastle/JumpingCastle";
 import FunFood from "./component/FunFood/FunFood";
 import Faq from "./component/Faq/Faq";
+import Contact from "./component/Contact/Contact";
 import Chairs from "./component/Chairs/Chairs";
 import Lighting from "./component/Lighting/Lighting";
 
@@ -38,6 +39,9 @@ function App() {
       <Switch>
         <Route path="/wedding">
           <Wedding />
+        </Route>
+        <Route path="/contact">
+          <Contact />
         </Route>
         <Route path="/funfood">
           <FunFood />

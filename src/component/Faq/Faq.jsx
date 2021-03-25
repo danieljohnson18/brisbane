@@ -6,6 +6,8 @@ import Touch from "../Touch/Touch";
 import Footer from "../Footer/Footer";
 import { Link } from "react-router-dom";
 import Mail from "../../assets/img/Mail-01.svg";
+import Phone from "../../assets/img/Phone-01.svg";
+import SMS from "../../assets/img/SMS-01.svg";
 import axios from "axios";
 import { API_BASE_URL } from "../../constants/apiConstants";
 
@@ -60,7 +62,7 @@ const Faq = () => {
         <div class="row row-stuck">
           <div class="col col-stuck mr-2">
             <div class="text-center">
-              <img src={Mail} class="rounded" alt="mail" />
+              <img src={Mail} class="rounded mail" alt="mail" />
             </div>
             <p>
               For any non urgent inquiries, email us using the form on the
@@ -70,7 +72,7 @@ const Faq = () => {
           </div>
           <div class="col col-stuck mx-2">
             <div class="text-center">
-              <img src={Mail} class="rounded" alt="mail" />
+              <img src={Phone} class="rounded" alt="mail" />
             </div>
             <p>
               SMS us on <span>0409 222 452</span> for any inquiries MON-FRI, 8AM
@@ -80,7 +82,7 @@ const Faq = () => {
           </div>
           <div class="col col-stuck ml-2">
             <div class="text-center">
-              <img src={Mail} class="rounded" alt="mail" />
+              <img src={SMS} class="rounded" alt="mail" />
             </div>
             <p>Like the old school way of getting things done?</p>
             <p>
