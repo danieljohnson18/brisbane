@@ -1,12 +1,12 @@
 import React from "react";
 import Nav from "../Nav/Nav";
-import "../Marquees/Marquees.css";
-import Party from "../../assets/img/Wedding party hire.JPG";
 import Touch from "../Touch/Touch";
+import Party from "../../assets/img/Wedding party hire.JPG";
+import "../Popup/Popup.css";
 import Footer from "../Footer/Footer";
 import { Link } from "react-router-dom";
 
-const Wedding = () => {
+const Popup = () => {
   return (
     <React.Fragment>
       <div className="wedding">
@@ -25,13 +25,46 @@ const Wedding = () => {
             </div>
   </Link>*/}
         </div>
-        <div className="text-center">
-          <h1 className="party-text">Party Hire For Weddings</h1>
+
+        <div class="card mb-3 pops-card">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src={Party} alt="..." className="pops-image" />
+            </div>
+            <div class="col-md-8 ">
+              <div class="card-body">
+                <h5 class="card-title">Marquee Ե DIY Pop Up Ե 3m X 3m</h5>
+                <p class="card-text">
+                  This is a wider card with supporting text below as a natural
+                  lead-in to additional content. This content is a little bit
+                  longer.
+                </p>
+                <h4 className="pops-items">
+                  Strength <span className="classified">Yes</span>
+                </h4>
+                <h4 className="pops-items">
+                  Height <span className="classified">Yes</span>
+                </h4>
+                <h4 className="pops-items">
+                  Clearance <span className="classified">Yes</span>
+                </h4>
+                <h4 className="pops-items">
+                  Main profile size <span className="classified">Yes</span>
+                </h4>
+                <h4 className="pops-items">
+                  Material <span className="classified">Yes</span>
+                </h4>
+                <h4 className="pops-items">
+                  Push button system <span className="classified">Yes</span>
+                </h4>
+              </div>
+            </div>
+          </div>
         </div>
-        <div className="party-image">
+        {/*<div className="party-image">
           <img src={Party} class="img-fluid" alt="Party" />
-        </div>
-        <div className="wed-text">
+</div>*/}
+        {/*<div className="wed-text">
           <div className="text-start">
             <p>
               Backyard wedding, park wedding, church wedding or wherever! Our
@@ -49,33 +82,7 @@ const Wedding = () => {
               on time and to perfection. Get started with some ideas below!
             </p>
           </div>
-        </div>
-        <div class="row row-mar">
-          <div class="col marq mr-5">
-            <h1 className="browse">
-              <Link className="link" to="/marquees">
-                {" "}
-                BROWSE WEDDING MARQUEES
-              </Link>
-            </h1>
-          </div>
-          <div class="col marq mr-5">
-            {" "}
-            <h1 className="browse">
-              {" "}
-              <Link className="link" to="/chairs">
-                BROWSE WEDDING CHAIRS
-              </Link>
-            </h1>
-          </div>
-          <div class="col marq">
-            <h1 className="browse">
-              <Link className="link" to="/lighting">
-                BROWSE WEDDING LIGHTING
-              </Link>
-            </h1>
-          </div>
-        </div>
+        </div>*/}
       </div>
       <Touch />
       <Footer />
@@ -83,4 +90,4 @@ const Wedding = () => {
   );
 };
 
-export default Wedding;
+export default Popup;

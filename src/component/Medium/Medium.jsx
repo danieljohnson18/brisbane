@@ -14,10 +14,10 @@ import Marq6 from "../../assets/img/Marquee – Pagoda – 6m x 12m(uiYIPXYmjmQ)
 import Marq7 from "../../assets/img/Marquee – Structure – 6m x 3m.JPG";
 import Marq8 from "../../assets/img/Marquee – Structure – 6m x 3m.JPG";
 import axios from "axios";
-import { API_BASE_URL } from "../../constants/apiConstants";
 import Modals from "../Modals/Modals";
+import { API_BASE_URL } from "../../constants/apiConstants";
 
-const Lighting = () => {
+const Medium = () => {
   useEffect(() => {
     axios({
       headers: {
@@ -46,19 +46,19 @@ const Lighting = () => {
       </div>
       <div class="container-fluid">
         <div className="paginator">
-          <Link className="link" to="/wedding">
+          <Link className="link" to="/jumpingcastle">
             <div className="text-start">
-              <h2 className="headies">Party-Hire for weddings</h2>
+              <h2 className="headies">Jumping Castle</h2>
             </div>
           </Link>
-          <Link className="link" to="/lighting">
+          <Link className="link" to="/medium">
             <div className="text-start ml-2">
-              <h2 className="headies">Lighting</h2>
+              <h2 className="headies">Medium Bouncy Jumping Castles</h2>
             </div>
           </Link>
         </div>
         <div className="text-center">
-          <h1 className="party-text">Lighting</h1>
+          <h1 className="party-text">Medium Bouncy Jumping Castles</h1>
         </div>
         <div class="row row-marquees">
           <div class="col-lg-4 col-md-6 col-sm-12 p-5">
@@ -133,6 +133,46 @@ const Lighting = () => {
           </div>
           <div class="col-lg-4 col-md-6 col-sm-12 p-5">
             <div class="card">
+              <img src={Marq6} class="card-img-top" alt="..." />
+              <div class="card-body">
+                <p class="text-start">Marquee - Structure - 6m X 6m</p>
+                <p className="price-text">From $75.00</p>
+                <Modals />
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12 p-5">
+            <div class="card">
+              <img src={Marq7} class="card-img-top" alt="..." />
+              <div class="card-body">
+                <p class="text-start">Marquee - Structure - 6m X 9m</p>
+                <p className="price-text">From $75.00</p>
+                <Modals />
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12 p-5">
+            <div class="card">
+              <img src={Marq6} class="card-img-top" alt="..." />
+              <div class="card-body">
+                <p class="text-start">Marquee - Structure - 6m X 6m</p>
+                <p className="price-text">From $75.00</p>
+                <Modals />
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12 p-5">
+            <div class="card">
+              <img src={Marq7} class="card-img-top" alt="..." />
+              <div class="card-body">
+                <p class="text-start">Marquee - Structure - 6m X 9m</p>
+                <p className="price-text">From $75.00</p>
+                <Modals />
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12 p-5">
+            <div class="card">
               <img src={Marq8} class="card-img-top" alt="..." />
               <div class="card-body">
                 <p class="text-start">Marquee - Structure - 6m X 12m</p>
@@ -149,4 +189,4 @@ const Lighting = () => {
   );
 };
 
-export default Lighting;
+export default Medium;

@@ -16,7 +16,6 @@ import Water from "./assets/img/INFLATABLE WATER.jpg";
 import Large from "./assets/img/LARGE COMBO.jpg";
 import Obstacle from "./assets/img/OBSTACLE cousre.jpg";
 import Table from "./assets/img/TABLES AND DRY.jpg";
-import Medium from "./assets/img/MEDIUM BOUNCY.jpg";
 import Fencing from "./assets/img/FENCING AND.jpg";
 import Chair from "./assets/img/CHAIRS AND.jpg";
 import Weddings from "./assets/img/Weddings-01.svg";
@@ -32,6 +31,8 @@ import Faq from "./component/Faq/Faq";
 import Contact from "./component/Contact/Contact";
 import Chairs from "./component/Chairs/Chairs";
 import Lighting from "./component/Lighting/Lighting";
+import Medium from "./component/Medium/Medium";
+import Popup from "./component/Popup/Popup";
 
 function App() {
   return (
@@ -40,8 +41,14 @@ function App() {
         <Route path="/wedding">
           <Wedding />
         </Route>
+        <Route path="/popup">
+          <Popup />
+        </Route>
         <Route path="/contact">
           <Contact />
+        </Route>
+        <Route path="/medium">
+          <Medium />
         </Route>
         <Route path="/funfood">
           <FunFood />

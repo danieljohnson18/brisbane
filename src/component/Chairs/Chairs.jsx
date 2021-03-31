@@ -15,6 +15,7 @@ import Marq7 from "../../assets/img/Marquee – Structure – 6m x 3m.JPG";
 import Marq8 from "../../assets/img/Marquee – Structure – 6m x 3m.JPG";
 import axios from "axios";
 import { API_BASE_URL } from "../../constants/apiConstants";
+import Modals from "../Modals/Modals";
 
 const Chairs = () => {
   useEffect(() => {
@@ -60,75 +61,83 @@ const Chairs = () => {
           <h1 className="party-text">Chair & Tools</h1>
         </div>
         <div class="row row-marquees">
-          <div class="col-lg-6 col-md-6 col-sm-12 p-5">
+          <div class="col-lg-4 col-md-6 col-sm-12 p-5">
             <div class="card">
               <img src={Marq1} class="card-img-top" alt="..." />
               <div class="card-body">
                 <p class="text-start">Marquee - DIY Pop Up - 3m X 3m</p>
                 <p className="price-text">From $75.00</p>
+                <Modals />
               </div>
             </div>
           </div>
-          <div class="col-lg-6 col-md-6 col-sm-12 p-5">
+          <div class="col-lg-4 col-md-6 col-sm-12 p-5">
             <div class="card">
               <img src={Marq2} class="card-img-top" alt="..." />
               <div class="card-body">
                 <p class="text-start">Marquee - DIY Pop Up - 3m X 6m</p>
                 <p className="price-text">From $75.00</p>
+                <Modals />
               </div>
             </div>
           </div>
-          <div class="col-lg-6 col-md-6 col-sm-12 p-5">
+          <div class="col-lg-4 col-md-6 col-sm-12 p-5">
             <div class="card">
               <img src={Marq3} class="card-img-top" alt="..." />
               <div class="card-body">
                 <p class="text-start">Marquee - Pagoda 3m X 3m</p>
                 <p className="price-text">From $75.00</p>
+                <Modals />
               </div>
             </div>
           </div>
-          <div class="col-lg-6 col-md-6 col-sm-12 p-5">
+          <div class="col-lg-4 col-md-6 col-sm-12 p-5">
             <div class="card">
               <img src={Marq4} class="card-img-top" alt="..." />
               <div class="card-body">
                 <p class="text-start">Marquee - Pagoda - 6m X 3m</p>
                 <p className="price-text">From $75.00</p>
+                <Modals />
               </div>
             </div>
           </div>
-          <div class="col-lg-6 col-md-6 col-sm-12 p-5">
+          <div class="col-lg-4 col-md-6 col-sm-12 p-5">
             <div class="card">
               <img src={Marq5} class="card-img-top" alt="..." />
               <div class="card-body">
                 <p class="text-start">Marquee - Structure - 6m X 3m</p>
                 <p className="price-text">From $75.00</p>
+                <Modals />
               </div>
             </div>
           </div>
-          <div class="col-lg-6 col-md-6 col-sm-12 p-5">
+          <div class="col-lg-4 col-md-6 col-sm-12 p-5">
             <div class="card">
               <img src={Marq6} class="card-img-top" alt="..." />
               <div class="card-body">
                 <p class="text-start">Marquee - Structure - 6m X 6m</p>
                 <p className="price-text">From $75.00</p>
+                <Modals />
               </div>
             </div>
           </div>
-          <div class="col-lg-6 col-md-6 col-sm-12 p-5">
+          <div class="col-lg-4 col-md-6 col-sm-12 p-5">
             <div class="card">
               <img src={Marq7} class="card-img-top" alt="..." />
               <div class="card-body">
                 <p class="text-start">Marquee - Structure - 6m X 9m</p>
                 <p className="price-text">From $75.00</p>
+                <Modals />
               </div>
             </div>
           </div>
-          <div class="col-lg-6 col-md-6 col-sm-12 p-5">
+          <div class="col-lg-4 col-md-6 col-sm-12 p-5">
             <div class="card">
               <img src={Marq8} class="card-img-top" alt="..." />
               <div class="card-body">
                 <p class="text-start">Marquee - Structure - 6m X 12m</p>
                 <p className="price-text">From $75.00</p>
+                <Modals />
               </div>
             </div>
           </div>

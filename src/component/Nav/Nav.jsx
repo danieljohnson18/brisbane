@@ -33,7 +33,7 @@ const Nav = () => {
                 Fun Foods
               </Link>
               <Link className="nav-item nav-link" to="/wedding">
-                Part Hire
+                Party Hire
               </Link>
               <Link className="nav-item nav-link" to="/faq">
                 FAQ

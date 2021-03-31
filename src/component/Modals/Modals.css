@@ -1,0 +1,77 @@
+.cart-btn {
+  text-align: end;
+}
+.btn-primary {
+  background-color: #fc6a10;
+  border-color: #fc6a10;
+  text-align: end;
+}
+
+.btn-primary:active {
+  background-color: #fc6a10;
+}
+.btn-primary:hover {
+  background-color: #fc6a10;
+}
+
+.modal-content {
+  width: 170%;
+  border-radius: 20px;
+}
+
+.card-title {
+  font-size: 1.4rem;
+  display: flex;
+  color: #fc6a10;
+  font-weight: 500;
+}
+
+.popups {
+  align-self: center;
+}
+
+.popups .modal-img {
+  border-radius: 10px 10px 10px 10px;
+  max-width: 90%;
+}
+
+@media (min-width: 768px) {
+  .popups {
+    flex: 0 0 50%;
+    max-width: 100%;
+  }
+}
+
+.popup-content {
+  padding-left: 0px;
+}
+
+.popup-content .card-body {
+  padding-left: 0px;
+}
+@media (min-width: 768px) {
+  .popup-content {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+}
+
+.card-text {
+  text-align: start;
+  font-weight: 400;
+}
+.items {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.card-text .details {
+  font-size: 1rem;
+  color: #fc6a10;
+  text-align: center;
+  border: 2px solid #fc6a10;
+  padding: 15px;
+  border-radius: 5px;
+}
