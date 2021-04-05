@@ -19,6 +19,16 @@ const Popup = () => {
               <h2 className="headies">Party-Hire for weddings</h2>
             </div>
           </Link>
+          <Link className="link" to="/lighting">
+            <div className="text-start ml-2">
+              <h2 className="headies">Lighting</h2>
+            </div>
+          </Link>
+          <Link className="link" to="/popup">
+            <div className="text-start ml-2">
+              <h2 className="headies">Pop up</h2>
+            </div>
+          </Link>
           {/*<Link className="link" to="/marquees">
             <div className="text-start ml-2">
               <h2 className="headies">Marquees and Shade</h2>
