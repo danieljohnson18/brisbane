@@ -34,29 +34,94 @@ const Popup = () => {
             <div class="col-md-8 ">
               <div class="card-body">
                 <h5 class="card-title">Marquee Ե DIY Pop Up Ե 3m X 3m</h5>
+                <div class="card-days">
+                  <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">
+                      No of days
+                    </label>
+                    <input
+                      type="number"
+                      class="form-control"
+                      id="exampleFormControlInput1"
+                      placeholder=""
+                    />
+                  </div>
+                  <div className="days-hire">
+                    <label for="exampleFormControlInput1" class="form-label">
+                      7 days Hire
+                    </label>
+                    <span className="funds">$112.50</span>
+                  </div>
+                </div>
+                <hr className="seperate" />
+                <div class="card-days">
+                  <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">
+                      Event Date
+                    </label>
+                    <input
+                      type="date"
+                      class="form-control"
+                      id="exampleFormControlInput1"
+                      placeholder=""
+                    />
+                  </div>
+                  <span className="days-hire">
+                    <label for="exampleFormControlInput1" class="form-label">
+                      Delivery
+                    </label>
+
+                    <div>
+                      <input
+                        type="number"
+                        class="form-control"
+                        id="exampleFormControlInput1"
+                        placeholder=""
+                      />
+                    </div>
+                  </span>
+                </div>
+                <div class="card-days">
+                  <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">
+                      Quantity
+                    </label>
+                    <input
+                      type="number"
+                      class="form-control"
+                      id="exampleFormControlInput1"
+                      placeholder=""
+                    />
+                  </div>
+                  <span className="funds">
+                    <label
+                      for="exampleFormControlInput1"
+                      class="form-label seven-days"
+                    >
+                      Marquee Wall Plain
+                    </label>
+
+                    <div className="multiple-labels">
+                      <input
+                        type="number"
+                        class="form-control double"
+                        id="exampleFormControlInput1"
+                        placeholder=""
+                      />
+                      <input
+                        type="number"
+                        class="form-control double"
+                        id="exampleFormControlInput1"
+                        placeholder=""
+                      />
+                    </div>
+                  </span>
+                </div>
                 <p class="card-text">
-                  This is a wider card with supporting text below as a natural
-                  lead-in to additional content. This content is a little bit
-                  longer.
+                  <Link>
+                    <h4 className="quantity-update">UPDATE QUANTITY</h4>
+                  </Link>
                 </p>
-                <h4 className="pops-items">
-                  Strength <span className="classified">Yes</span>
-                </h4>
-                <h4 className="pops-items">
-                  Height <span className="classified">Yes</span>
-                </h4>
-                <h4 className="pops-items">
-                  Clearance <span className="classified">Yes</span>
-                </h4>
-                <h4 className="pops-items">
-                  Main profile size <span className="classified">Yes</span>
-                </h4>
-                <h4 className="pops-items">
-                  Material <span className="classified">Yes</span>
-                </h4>
-                <h4 className="pops-items">
-                  Push button system <span className="classified">Yes</span>
-                </h4>
               </div>
             </div>
           </div>

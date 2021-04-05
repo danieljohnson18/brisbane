@@ -2,6 +2,54 @@
   opacity: none;
 }
 
+.card-body .card-days {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-body .form-label {
+  text-align: start;
+  display: flex;
+}
+
+.card-body .form-control {
+  width: 40%;
+}
+
+.card-body .seperate {
+  margin-top: 0.6rem;
+  border-top: 0.5px solid grey;
+
+  margin-bottom: 0px;
+}
+
+.days-hire .funds {
+  display: flex;
+}
+
+.card-body .multiple-labels {
+  display: flex;
+  justify-content: center;
+}
+
+.card-body .seven-days {
+  justify-content: center;
+}
+
+.card-body .double {
+  width: 20%;
+}
+
+.quantity-update {
+  font-size: 1rem;
+  color: #fff;
+  background-color: #fc6a10;
+  text-align: center;
+  border: 2px solid #fc6a10;
+  padding: 15px;
+  border-radius: 5px;
+}
+
 .pops-image {
   max-width: 100%;
   border-radius: 13px;
@@ -18,7 +66,6 @@
   .col-md-8 {
     flex: 0 0 50%;
     max-width: 50%;
-    max-width: 66.66666%;
   }
 }
 
