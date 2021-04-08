@@ -5,6 +5,7 @@ import Party from "../../assets/img/Wedding party hire.JPG";
 import "../Popup/Popup.css";
 import Footer from "../Footer/Footer";
 import { Link } from "react-router-dom";
+import TigerPart from "../TigerPart/TigerPart";
 
 const Popup = () => {
   return (
@@ -128,9 +129,14 @@ const Popup = () => {
                   </span>
                 </div>
                 <p class="card-text">
-                  <Link>
-                    <h4 className="quantity-update">UPDATE QUANTITY</h4>
-                  </Link>
+                  <button
+                    type="button"
+                    class="btn btn-primary"
+                    data-bs-toggle="modal"
+                    data-bs-target="#exampleModal"
+                  >
+                    <TigerPart />
+                  </button>
                 </p>
               </div>
             </div>

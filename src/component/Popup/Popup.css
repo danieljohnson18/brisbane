@@ -1,5 +1,11 @@
-.modal-backdrop.show {
-  opacity: none;
+.modal-backdrop {
+  display: none;
+  z-index: 1040 !important;
+}
+
+.modal-content {
+  margin: 2px auto;
+  z-index: 1100 !important;
 }
 
 .card-body .card-days {
@@ -64,13 +70,6 @@
 
 @media (min-width: 768px) {
   .col-md-8 {
-    flex: 0 0 50%;
-    max-width: 50%;
-  }
-}
-
-@media (min-width: 768px) {
-  .col-md-4 {
     flex: 0 0 50%;
     max-width: 50%;
   }

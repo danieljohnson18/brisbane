@@ -1,0 +1,10 @@
+.modal-header .tiger-header {
+  color: #000;
+}
+
+.modal-body h4 {
+  color: #000;
+  font-size: 1rem;
+  text-align: start;
+  padding: 20px;
+}

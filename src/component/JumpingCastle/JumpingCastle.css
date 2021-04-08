@@ -36,6 +36,13 @@
   margin-top: 40px;
 }
 
+.entries .postcode {
+  color: #fc6a10;
+  font-weight: 500;
+  display: flex;
+  align-self: center;
+}
+
 .jump-content .content-header {
   color: #fc6a10;
   font-size: 1.2rem;
